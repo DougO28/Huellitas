@@ -42,13 +42,31 @@ export default function Footer() {
             </div>
 
             <nav aria-label="Redes sociales" className="flex items-center gap-3">
-              <a href="#" aria-label="Facebook de Huellitas" className="p-2 rounded-lg bg-black text-white">
+              <a 
+                href="https://www.facebook.com/HuellitasPatzun" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook de Huellitas" 
+                className="p-2 rounded-lg bg-black text-white hover:bg-blue-600 transition"
+              >
                 <FacebookIcon className="w-5 h-5 fill-white" />
               </a>
-              <a href="#" aria-label="Instagram de Huellitas" className="p-2 rounded-lg bg-black text-white">
+              <a 
+                href="https://www.instagram.com/huellitas___?igsh=MXV1d2RxdndiOGlkNg==" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram de Huellitas" 
+                className="p-2 rounded-lg bg-black text-white hover:bg-pink-600 transition"
+              >
                 <InstagramIcon className="w-5 h-5 fill-white" />
               </a>
-              <a href="#" aria-label="X (Twitter) de Huellitas" className="p-2 rounded-lg bg-black text-white">
+              <a 
+                href="https://x.com/huellitas___?t=UIS9wGIWv7ZLWBeOXdKKew&s=09" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (Twitter) de Huellitas" 
+                className="p-2 rounded-lg bg-black text-white hover:bg-sky-500 transition"
+              >
                 <XIcon className="w-5 h-5 fill-white" />
               </a>
             </nav>
@@ -61,13 +79,31 @@ export default function Footer() {
               <span className="font-semibold">Huellitas</span> - Todos los derechos reservados {year}
             </p>
             <div className="flex items-center gap-3">
-              <a href="#" aria-label="Facebook de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+              <a 
+                href="https://www.facebook.com/HuellitasPatzun" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook de Huellitas" 
+                className="p-1.5 rounded bg-white/10 hover:bg-blue-600 transition"
+              >
                 <FacebookIcon className="w-4 h-4 fill-white" />
               </a>
-              <a href="#" aria-label="Instagram de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+              <a 
+                href="https://www.instagram.com/huellitas___?igsh=MXV1d2RxdndiOGlkNg==" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram de Huellitas" 
+                className="p-1.5 rounded bg-white/10 hover:bg-pink-600 transition"
+              >
                 <InstagramIcon className="w-4 h-4 fill-white" />
               </a>
-              <a href="#" aria-label="X (Twitter) de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+              <a 
+                href="https://x.com/huellitas___?t=UIS9wGIWv7ZLWBeOXdKKew&s=09" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (Twitter) de Huellitas" 
+                className="p-1.5 rounded bg-white/10 hover:bg-sky-500 transition"
+              >
                 <XIcon className="w-4 h-4 fill-white" />
               </a>
             </div>
@@ -85,13 +121,31 @@ export default function Footer() {
           <span className="font-semibold">Huellitas</span> - Todos los derechos reservados {year}
         </p>
         <nav aria-label="Redes sociales" className="flex items-center gap-3">
-          <a href="#" aria-label="Facebook de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+          <a 
+            href="https://www.facebook.com/HuellitasPatzun" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook de Huellitas" 
+            className="p-1.5 rounded bg-white/10 hover:bg-blue-600 transition"
+          >
             <FacebookIcon className="w-4 h-4 fill-white" />
           </a>
-          <a href="#" aria-label="Instagram de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+          <a 
+            href="https://www.instagram.com/huellitas___?igsh=MXV1d2RxdndiOGlkNg==" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de Huellitas" 
+            className="p-1.5 rounded bg-white/10 hover:bg-pink-600 transition"
+          >
             <InstagramIcon className="w-4 h-4 fill-white" />
           </a>
-          <a href="#" aria-label="X (Twitter) de Huellitas" className="p-1.5 rounded bg-white/10 hover:bg-white/20">
+          <a 
+            href="https://x.com/huellitas___?t=UIS9wGIWv7ZLWBeOXdKKew&s=09" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X (Twitter) de Huellitas" 
+            className="p-1.5 rounded bg-white/10 hover:bg-sky-500 transition"
+          >
             <XIcon className="w-4 h-4 fill-white" />
           </a>
         </nav>

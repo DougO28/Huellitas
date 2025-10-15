@@ -8,23 +8,28 @@ const themeStyles = {
 };
 
 export default function NewsCard({ item }) {
+  // El backend no tiene theme, usar sky por defecto
   const themeClass = themeStyles[item.theme] || themeStyles.sky;
 
   return (
     <article className="overflow-hidden rounded-3xl border border-neutral-200 shadow-lg">
-      <Link to={`/noticias/${item.id}`} className="block h-full">
+      <Link to={`/noticias/${item.slug}`} className="block h-full">
         <img
-          src={item.cardImage}
-          alt={item.title}
+          src={item.imagen}
+          alt={item.titulo}
           className="h-48 w-full object-cover"
         />
         <div className={`px-6 py-6 ${themeClass}`}>
-          <h3 className="text-xl font-semibold">{item.title}</h3>
+          <h3 className="text-xl font-semibold">{item.titulo}</h3>
           <p className="mt-3 text-sm leading-relaxed text-neutral-700/80">
-            {item.summary}
+            {item.resumen}
           </p>
           <div className="mt-5 text-right text-xs font-semibold uppercase tracking-wide">
-            {item.date}
+            {new Date(item.fecha).toLocaleDateString('es-ES', {
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit'
+            })}
           </div>
         </div>
       </Link>
